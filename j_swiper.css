@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.j_swiper_touchLayer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.j_swiper {
+    overflow: hidden;
+    position: relative;
+    /*width: 100%;*/
+    width: 400px;
+    height: 200px;
+
+}
+
+.j_swiper_item {
+    position: absolute;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+
+}
+
+.j_dot_wrap {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*font-size: calc(width / 4);*/
+
+}
+
+.j_dot_wrap_X {
+
+    bottom: 0;
+
+    width: 100%;
+    /*border: 1px #138b19 solid;*/
+
+}
+
+.j_dot_wrap_Y {
+    flex-direction: column;
+    right: 0;
+    /*width: 100%;*/
+    height: 100%;
+
+}
+
+
+.j_dot_common {
+    width: 1.2em;
+    height: 1.2em;
+    margin: .5em;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: .3s ease-in-out background-color;
+}
+
+.j_dot_active {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.j_btn_common .j_btn_text {
+    font-size: 2.4em;
+    color: #fff;
+    user-select: none;
+}
+
+.j_btn_common {
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    text-align: center;
+    line-height: 4em;
+
+    /*font-size: 28px;*/
+
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.j_btn_common:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.j_btn_common_X {
+    margin: 0 1em;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.j_btn_common_Y {
+    margin: 1em 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+}
+
+.j_btn_common_l {
+    left: 0;
+}
+
+.j_btn_common_r {
+    right: 0;
+
+}
+
+.j_btn_common_t {
+    top: 0;
+}
+
+.j_btn_common_b {
+    bottom: 0;
+
+}
+
+
+.j_btn_common_l.j_btn_hover {
+    left: -6em;
+}
+
+
+/*.j_swiper:hover .j_btn_common_l.j_btn_hover {*/
+/*    left: 0;*/
+/*}*/
+
+.j_btn_common_r.j_btn_hover {
+    right: -6em;
+}
+
+/*.j_swiper:hover .j_btn_common_r.j_btn_hover {*/
+/*    right: 0;*/
+/*}*/
+
+.j_btn_common_t.j_btn_hover {
+    top: -6em;
+}
+
+/*.j_swiper:hover .j_btn_common_t.j_btn_hover {*/
+/*    top: 0;*/
+/*}*/
+
+.j_btn_common_b.j_btn_hover {
+    bottom: -6em;
+}
+
+/*.j_swiper:hover .j_btn_common_b.j_btn_hover {*/
+/*    bottom: 0;*/
+/*}*/
+
