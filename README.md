@@ -43,7 +43,7 @@
 ```
 > 恭喜 您已完成一个最基本的 轮播效果
 # 属性配置
-####与 element-ui/antd 一样 我们也支持 标签属性配置
+#### 与 element-ui/antd 一样 我们也支持 标签属性配置
 
 |属性名      |说明      |可选值      |默认值      |
 | ---- | ---- | ---- | ---- |
@@ -59,7 +59,7 @@
 |dottrigger      |小点点的触发方式      |click/mouseover      |click      |
 |direction      |组件的滑动方向      |X/Y      |X      |
 |change      |切换后的回调函数      |—      |—      |
-####示例
+#### 示例
 ```html
 <j-swiper
     class="my-swiper"
@@ -83,7 +83,7 @@
 ```
 
 # 如何获取切换后的index值
-###方式一（非实例化方式）
+### 方式一（非实例化方式）
 ```html
 <body>
 <div>
@@ -97,7 +97,7 @@
 </script>
 </body>
 ```
-###方式二（实例化方式）
+### 方式二（实例化方式）
 #### 提示：实例化前 推荐设置属性 handCreate="true" 启动手动实例化方式  
 ```javascript
     // 实例化 一个swiper组件
@@ -115,4 +115,3 @@
     j_swiper.lastPage()
 ```
 
-"# j-swiper" 
